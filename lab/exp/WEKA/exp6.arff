@@ -1,0 +1,17 @@
+% Repeat employee clustering with k=3 and compare cluster sizes, centroids and within-cluster error.
+
+@relation employee_clustering
+
+@attribute Age numeric
+@attribute Salary numeric
+@attribute CreditScore numeric
+
+@data
+25,30000,650
+35,50000,720
+45,70000,780
+28,32000,640
+52,90000,800
+31,42000,690
+22,25000,610
+48,80000,760

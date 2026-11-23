@@ -1,0 +1,17 @@
+% Remove one irrelevant attribute with the Remove filter and compare classifier performance before and after.
+
+@relation employee_data
+
+@attribute Age numeric
+@attribute Salary numeric
+@attribute Department {IT,HR,Sales}
+
+@data
+25,30000,IT
+35,45000,HR
+40,50000,Sales
+45,70000,IT
+28,32000,HR
+52,42000,IT
+22,25000,Sales
+48,80000,HR

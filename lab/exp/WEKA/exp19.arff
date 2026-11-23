@@ -1,0 +1,17 @@
+% Load a dataset with missing values and use ReplaceMissingValues; compare before and after preprocessing.
+
+@relation employee_missing
+
+@attribute Age numeric
+@attribute Salary numeric
+@attribute Department {IT,HR,Sales}
+
+@data
+25,30000,IT
+35,?,HR
+?,50000,Sales
+45,70000,?
+28,32000,IT
+?,42000,HR
+22,?,Sales
+48,80000,IT

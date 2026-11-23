@@ -1,0 +1,19 @@
+% Apply SMO to the crop data and compare precision, recall and F1 with J48.
+
+@relation crop_classification
+
+@attribute SoilType {Sandy,Loamy,Clay}
+@attribute Rainfall numeric
+@attribute Temperature numeric
+@attribute Crop {Rice,Wheat,Millet}
+
+@data
+Loamy,120,28,Rice
+Sandy,60,35,Millet
+Clay,100,25,Wheat
+Loamy,150,27,Rice
+Sandy,50,38,Millet
+Clay,90,24,Wheat
+Loamy,130,26,Rice
+Sandy,70,33,Millet
+Clay,110,23,Wheat

@@ -1,0 +1,18 @@
+% Create credit-approval ARFF data (Income, Debt, EmploymentStatus, Approved); apply Naive Bayes and record evaluation.
+
+@relation credit_approval
+
+@attribute Income numeric
+@attribute Debt numeric
+@attribute EmploymentStatus {Employed,SelfEmployed,Unemployed}
+@attribute Approved {Yes,No}
+
+@data
+60000,5000,Employed,Yes
+25000,15000,Unemployed,No
+45000,8000,SelfEmployed,Yes
+80000,3000,Employed,Yes
+15000,20000,Unemployed,No
+55000,7000,Employed,Yes
+30000,12000,SelfEmployed,No
+70000,4000,Employed,Yes

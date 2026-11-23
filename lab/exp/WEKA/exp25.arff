@@ -1,0 +1,21 @@
+% Create supermarket transactions; apply Apriori with confidence 80% using two minimum-support values and compare rule counts.
+
+@relation supermarket
+
+@attribute Bread {T,F}
+@attribute Milk {T,F}
+@attribute Coffee {T,F}
+@attribute Biscuits {T,F}
+@attribute Soap {T,F}
+
+@data
+T,T,F,T,F
+T,T,T,F,T
+F,T,T,T,F
+T,F,T,F,T
+T,T,F,T,T
+F,T,T,F,F
+T,T,T,T,F
+T,F,F,T,T
+F,T,F,T,F
+T,T,T,F,T

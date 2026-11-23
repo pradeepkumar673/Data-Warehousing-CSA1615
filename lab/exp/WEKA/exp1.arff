@@ -1,0 +1,17 @@
+% Create an ARFF customer dataset (Age, Income, Purchase) and apply J48; visualize the tree and record correct/incorrect instances.
+
+@relation customer_purchase
+
+@attribute Age numeric
+@attribute Income numeric
+@attribute Purchase {Yes,No}
+
+@data
+25,30000,No
+35,50000,Yes
+45,70000,Yes
+28,25000,No
+52,90000,Yes
+31,40000,Yes
+22,20000,No
+48,80000,Yes

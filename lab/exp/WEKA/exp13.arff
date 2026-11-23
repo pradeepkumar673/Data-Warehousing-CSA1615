@@ -1,0 +1,19 @@
+% Create grocery transactions and apply Apriori with minimum support count 3 and confidence 70%; identify strongest rules.
+
+@relation grocery
+
+@attribute Bread {T,F}
+@attribute Milk {T,F}
+@attribute Eggs {T,F}
+@attribute Butter {T,F}
+@attribute Juice {T,F}
+
+@data
+T,T,F,T,F
+T,T,T,F,T
+F,T,T,T,F
+T,F,T,F,T
+T,T,F,T,T
+F,T,T,F,F
+T,T,T,T,F
+T,F,F,T,T

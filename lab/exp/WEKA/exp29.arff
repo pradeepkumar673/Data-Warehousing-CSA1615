@@ -1,0 +1,18 @@
+% Create telecom ARFF data (Age, MonthlyCharge, ContractType, Churn); apply J48 and report confusion matrix.
+
+@relation telecom_churn
+
+@attribute Age numeric
+@attribute MonthlyCharge numeric
+@attribute ContractType {Monthly,Yearly}
+@attribute Churn {Yes,No}
+
+@data
+25,80,Monthly,Yes
+45,120,Yearly,No
+30,90,Monthly,Yes
+55,150,Yearly,No
+28,70,Monthly,Yes
+50,130,Yearly,No
+35,95,Monthly,No
+60,160,Yearly,No

@@ -1,0 +1,18 @@
+% Apply FP-Growth to the discretized retail data and compare rule count/confidence with Apriori.
+
+@relation retail_customer
+
+@attribute Age numeric
+@attribute Income numeric
+@attribute Visits numeric
+@attribute Purchase {Yes,No}
+
+@data
+25,30000,5,Yes
+35,50000,10,Yes
+45,80000,8,No
+28,25000,3,No
+52,120000,15,Yes
+31,42000,7,Yes
+22,20000,2,No
+48,95000,12,Yes

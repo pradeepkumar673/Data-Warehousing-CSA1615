@@ -1,0 +1,18 @@
+% Create house-price ARFF data (Area, Bedrooms, Bathrooms, Price); apply LinearRegression and report MAE, RMSE and correlation.
+
+@relation house_price
+
+@attribute Area numeric
+@attribute Bedrooms numeric
+@attribute Bathrooms numeric
+@attribute Price numeric
+
+@data
+1200,2,1,250000
+1500,3,2,320000
+1800,3,2,380000
+2000,4,3,450000
+1100,2,1,220000
+2500,4,3,550000
+1700,3,2,360000
+2200,4,3,480000

@@ -1,0 +1,18 @@
+% Create banking ARFF data (Balance, Age, Transactions, RiskLevel); apply J48 with 10-fold CV.
+
+@relation bank_risk
+
+@attribute Balance numeric
+@attribute Age numeric
+@attribute Transactions numeric
+@attribute RiskLevel {Low,Medium,High}
+
+@data
+50000,45,120,Low
+15000,25,30,High
+30000,35,70,Medium
+75000,55,200,Low
+8000,22,15,High
+42000,40,100,Medium
+90000,60,250,Low
+20000,30,45,High

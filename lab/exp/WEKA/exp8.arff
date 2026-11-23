@@ -1,0 +1,18 @@
+% Apply COBWEB to the same dataset and inspect the hierarchical cluster structure.
+
+@relation customer_hierarchical
+
+@attribute Region {North,South,East,West}
+@attribute Visits numeric
+@attribute Purchases numeric
+@attribute Rating numeric
+
+@data
+North,10,5,4
+South,15,8,3
+East,8,3,5
+West,20,12,4
+North,12,6,3
+South,18,10,4
+East,6,2,5
+West,25,15,2

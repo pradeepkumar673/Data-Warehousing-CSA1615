@@ -1,0 +1,20 @@
+% Create customer-purchase ARFF data (Age, Income, OnlineVisits, Purchased); compare J48 and SMO using 10-fold CV, accuracy and F1.
+
+@relation customer_purchase_comparison
+
+@attribute Age numeric
+@attribute Income numeric
+@attribute OnlineVisits numeric
+@attribute Purchased {Yes,No}
+
+@data
+25,30000,5,Yes
+35,50000,10,Yes
+45,80000,2,No
+28,25000,1,No
+52,120000,15,Yes
+31,42000,8,Yes
+22,20000,3,No
+48,95000,12,Yes
+30,38000,6,Yes
+55,110000,4,No

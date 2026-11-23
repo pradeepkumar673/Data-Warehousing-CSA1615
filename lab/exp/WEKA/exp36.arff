@@ -1,0 +1,18 @@
+% Apply Logistic classification to the medical data and compare accuracy and ROC area with J48.
+
+@relation medical_screening
+
+@attribute BloodPressure numeric
+@attribute Cholesterol numeric
+@attribute Age numeric
+@attribute Risk {Low,High}
+
+@data
+120,180,30,Low
+160,240,55,High
+115,175,28,Low
+170,260,60,High
+125,185,35,Low
+165,250,58,High
+118,170,32,Low
+175,270,62,High

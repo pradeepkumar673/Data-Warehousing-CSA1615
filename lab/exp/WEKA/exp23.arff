@@ -1,0 +1,18 @@
+% Create student ARFF data (Attendance, AssignmentScore, InternalMark, Result); apply J48 and visualize.
+
+@relation student_result
+
+@attribute Attendance numeric
+@attribute AssignmentScore numeric
+@attribute InternalMark numeric
+@attribute Result {Pass,Fail}
+
+@data
+90,18,45,Pass
+60,10,25,Fail
+75,15,38,Pass
+85,17,42,Pass
+50,8,20,Fail
+80,16,40,Pass
+65,12,30,Fail
+95,20,48,Pass

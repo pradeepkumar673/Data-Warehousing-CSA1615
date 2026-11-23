@@ -1,0 +1,19 @@
+% Create vehicle-classification ARFF data (EnginePower, Weight, Mileage, VehicleType); apply J48 and inspect rules.
+
+@relation vehicle_classification
+
+@attribute EnginePower numeric
+@attribute Weight numeric
+@attribute Mileage numeric
+@attribute VehicleType {Hatchback,Sedan,SUV}
+
+@data
+70,900,22,Hatchback
+100,1200,18,Sedan
+150,1800,12,SUV
+80,950,21,Hatchback
+120,1400,16,Sedan
+180,2000,10,SUV
+75,920,23,Hatchback
+110,1300,17,Sedan
+160,1900,11,SUV

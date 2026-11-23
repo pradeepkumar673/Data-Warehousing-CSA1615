@@ -1,0 +1,19 @@
+% Apply EM clustering to a suitable numeric dataset and compare its clusters with SimpleKMeans.
+
+@relation customer_em
+
+@attribute Age numeric
+@attribute Income numeric
+@attribute SpendingScore numeric
+
+@data
+22,25000,60
+30,40000,72
+45,70000,55
+28,30000,80
+35,55000,68
+50,90000,45
+27,32000,75
+42,65000,52
+33,48000,70
+48,78000,48
